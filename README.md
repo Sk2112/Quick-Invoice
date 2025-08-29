@@ -53,14 +53,7 @@ Invoice-Generator-WebApp
 │ │ ├── pages/ # Pages (Invoice Form, Dashboard, etc.)
 │ │ └── utils/ # Helper functions
 │ └── package.json
-│
-├── backend/ # Spring Boot app
-│ ├── src/main/java/com/invoicegenerator
-│ │ ├── controller/ # REST APIs
-│ │ ├── service/ # Business logic
-│ │ ├── repository/ # Mongo Repositories
-│ │ └── model/ # Invoice entity
-│ └── pom.xml
+| |_Readme.md
 ```
 
 ## 📊 Insights
