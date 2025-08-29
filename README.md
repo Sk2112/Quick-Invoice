@@ -84,7 +84,7 @@ Invoice-Generator-WebApp
 ### Steps
 1. Clone the repository:
    ```
-   git clone https://github.com
+   git clone https://github.com/Sk2112/Quick-Invoice.git
    cd invoice-generator-webapp
    ```
 
@@ -104,6 +104,10 @@ Invoice-Generator-WebApp
 🤝 Contributing
 Pull requests are welcome. For significant changes, please open an issue first to discuss your ideas.
 
+### Backend 
+```
+In Progress
+```
 
 ###
 👨‍💻 Developed by Sumit kumar
