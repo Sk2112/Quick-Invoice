@@ -1,0 +1,92 @@
+/* Template1.css */
+.template1 {
+  background-color: #f5f5f5 ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  /* animation: fadeInUp 0.6s ease-in-out; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Smooth fade-in animation */
+/* @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+.company-title {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.invoice-title {
+  color: #e67e22;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.orange-border {
+  border-top: 2px solid #f39c12;
+}
+
+.billing-box {
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #f39c12;
+}
+
+.billing-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.table-header {
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.totals-box {
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.03);
+}
+
+.total-highlight {
+  background-color: #f39c12;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.total-highlight span {
+  font-weight: 700;
+}
+
+img {
+  border-radius: 8px;
+}
+
+h3 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+
+.no-animation * {
+  animation: none !important;
+  transition: none !important;
+}

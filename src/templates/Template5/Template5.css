@@ -1,0 +1,121 @@
+
+.template5 {
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px dashed #a0e7e5;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* Header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #38bdf8;
+  padding-bottom: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 60px;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+}
+
+.invoice-box h1 {
+  font-size: 2.3rem;
+  color: #0ea5e9; /* Sky Blue */
+  margin: 0;
+}
+
+/* Billing & Shipping Details */
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.details div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.details h3 {
+  font-size: 1.1rem;
+  color: #0f766e; /* Teal-800 */
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 4px;
+}
+
+/* Table */
+.items {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.items thead th {
+  background: #38bdf8;
+  color: #ffffff;
+  padding: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.items tbody td {
+  text-align: center;
+  padding: 0.9rem;
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.items tbody tr:nth-child(even) td {
+  background-color: #e0f7fa;
+}
+
+/* Totals Section */
+.totals {
+  text-align: right;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.totals p {
+  margin: 5px 0;
+}
+
+.total {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #16d8c8; /* Teal-800 */
+}
+
+/* Bank & Notes Section */
+.bank,
+.notes {
+  margin-top: 2rem;
+}
+
+.bank h3,
+.notes h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2563eb; /* Blue-600 */
+  border-bottom: 1px solid #d1d5db;
+  margin-bottom: 0.5rem;
+  padding-bottom: 4px;
+}
+
+.bank p,
+.notes p {
+  margin: 4px 0;
+  color: #374151; /* Gray-700 */
+}

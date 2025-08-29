@@ -1,0 +1,185 @@
+.hero-section {
+  background: linear-gradient(to bottom, #3b82f6, #2563eb);
+  color: white;
+  padding: 120px 20px 60px; 
+  text-align: center;
+  min-height: 60vh;
+}
+
+.hero-container h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 50px;
+
+}
+
+.hero-container p {
+  color: #dbeafe;
+  font-size: 1.6rem;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  transition: transform 0.5s ease;
+  
+}
+
+
+.steps-section {
+  background: linear-gradient(to bottom, #f8fafc, #e2e8f0);
+  padding: 80px 20px;
+  text-align: center;
+  margin: 10px ;
+}
+
+.steps-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1f2937;
+}
+
+.steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  display:  flex;
+  justify-content: space-evenly;
+}
+
+.step-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  width: 250px;
+  padding: 30px 20px;
+  transition: transform 0.5s ease;
+
+}
+
+.step-card:hover {
+  transform: translateY(-10px);
+   cursor: pointer;
+   transform: scale(1.2);
+
+}
+
+.step-circle {
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.step-desc {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+.cta-section {
+  background: linear-gradient(to bottom, #0866ff, #0a5ee0);
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.cta-container h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ffbe00;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e6aa00;
+}
+
+.note {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 30px 20px;
+  color: #cccccc;
+  padding-top: 10px;
+  
+}
+
+
+.footer-icon {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.footer-text {
+  font-size: 20px;
+  opacity: 0.8;
+ /* border:  2px solid red; */
+}
+
+.social-handle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.social-handle:hover{
+  cursor: pointer;
+  
+}

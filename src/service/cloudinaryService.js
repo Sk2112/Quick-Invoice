@@ -1,0 +1,10 @@
+import axios from "axios";
+
+export const uploadInvoiceThumbnail=async (imageData)=>{
+const formData=new FormData();
+formData.append('file',imageData);
+formData.append('upload_preset','invoices-thumbnail');
+formData.append('cloud_name','dzzmthiif');
+const response = await axios.post(`https://api.cloudinary.com/v1_1/dzzmthiif/image/upload`,formData);
+return response.data.secure_url;
+}

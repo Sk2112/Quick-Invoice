@@ -1,0 +1,120 @@
+/* Container */
+.template3-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+/* Header */
+.template3-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.company-details h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.company-logo {
+  max-width: 100px;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+}
+
+.invoice-info h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #f97316; /* orange-500 */
+  margin-bottom: 0.5rem;
+}
+
+/* Billing Section */
+.template3-billing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.template3-billing div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.template3-billing h3 {
+  font-size: 1.2rem;
+  color: #3b82f6; 
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+
+/* Table */
+.template3-items {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.template3-items th,
+.template3-items td {
+  border: 1px solid #ddd;
+  padding: 12px 14px;
+  text-align: left;
+}
+
+.template3-items th {
+  background-color: #f3f4f6; 
+  color: #111827; 
+  font-weight: 600;
+}
+
+.template3-items tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Summary */
+.template3-summary {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.template3-summary p {
+  margin: 6px 0;
+}
+
+.template3-summary .total {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #10b981; 
+}
+
+
+.template3-bank,
+.template3-notes {
+  margin-top: 1.8rem;
+}
+
+.template3-bank h3,
+.template3-notes h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #4b5563; /* gray-700 */
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 4px;
+}
