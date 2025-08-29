@@ -1,4 +1,4 @@
-# 📄 Invoice Generator Web App Frontend
+# 📄Quick Invoice - An Invoice Generator Web App (Frontend)
 
 ### A full-stack **Invoice Management System** built with **React + Spring Boot + MongoDB** to automate billing and reduce manual workload.  
 The system provides an intuitive UI for managing invoices, exporting PDFs, and sending invoices directly via email.
